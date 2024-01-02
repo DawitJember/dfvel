@@ -1,0 +1,21 @@
+Package: dfvel
+Title: Compute Child Growth Velocity Using the WHO Standard
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Dawit", "Jember", , "devanhijember@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-3831-5465")),
+      person("Dawit", "Jember", , "devanhijember@gmail.com", role="aut")) 
+Description: The aim of the dfvel package is to simplify computation of child growth velocity
+   in epidemiological studies. The package compute height, weight, and 
+   head circumference velocity from long form data using the numeric and LMS methods. 
+   The package uses the 2009 WHO growth velocity standard to compute individual growth 
+   velocity z score.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr
+Depends: 
+    R (>= 2.10)
+LazyData: true
